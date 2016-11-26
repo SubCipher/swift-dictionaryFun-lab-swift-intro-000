@@ -10,7 +10,7 @@ In this lab, you'll create and change, update, and add values to a dictionary. Y
 
 There are tests for each method you have to write in this lab. It might be best for you to create all of the functions first without implementing them so that way the test file will be able to run (when you press command + u). Without doing that, it might not run after you do each one individually because it's the test file is trying to call on methods (to see that you implemented them correctly) that don't exist yet because you haven't gotten to them yet.
 
-Also, if you want to test our your functions yourself to see how things are working, navigate to the `ViewController.swift` file and locate the comment where you can begin testing out your functions yourself utizling the `icecream` variable vailable to you in that class (not mandatory to do this!).
+Also, if you want to test out your functions yourself to see how things are working, navigate to the `ViewController.swift` file and locate the comment where you can begin testing out your functions yourself utizling the `icecream` variable vailable to you in that class (not mandatory to do this!).
  
 
 # Instructions
