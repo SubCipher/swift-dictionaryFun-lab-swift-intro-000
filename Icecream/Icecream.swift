@@ -10,7 +10,6 @@ class Icecream {
     
     // 1. Create the Dictionary here. The name of the variable should be favoriteFlavorsOfIceCream
     
-    
     var favoriteFlavorsOfIceCream:[String:String] = [
         "Joe":"Peanut Butter and Chocolate",
         "Tim":"Natural Vanilla",
@@ -46,26 +45,15 @@ class Icecream {
                 flavCount += 1
             }
         }
-        
         return flavCount
     }
     
-    
-    
-
-    
-    // 4.
+        // 4.
     func flavor(forPerson person:String)->String?{
         
         return favoriteFlavorsOfIceCream[person]
-    
-
     }
    
-    
-    
-    
-    
     
     // 5.
     func replace(flavor:String, forPerson:String)->Bool{
@@ -81,13 +69,7 @@ class Icecream {
         }
         return false
     }
-    
-    
-    
-    
     // 6.
-    
-    
     
     func remove(person:String)->Bool{
         
@@ -98,26 +80,16 @@ class Icecream {
         else {
             return false
         }
-        
     }
-    
-    
     
     
     // 7.
     
     func numberOfAttendees()->Int{
         return favoriteFlavorsOfIceCream.keys.count
-
     }
     
-    
-    
-    
-    
     // 8.
-    
-    
     
     func add(person:String, withFlavor:String)->Bool{
         if( withFlavor != favoriteFlavorsOfIceCream[person]){
@@ -128,10 +100,6 @@ class Icecream {
             return false
         }
     }
-
-    
-    
-    
     
     // 9
     func attendeeList()->String{
@@ -149,22 +117,9 @@ class Icecream {
                                     }
                 else{
                     rsvpList += "\(selectedRsvp) likes \(iceCreamFlavor)"
-                   
-                    
                 }
-                
             }
         }
-        
-        
-        
-        
-        
-                return rsvpList
+        return rsvpList
         }
 }
-
-
-
-
-
